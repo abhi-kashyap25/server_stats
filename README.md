@@ -17,13 +17,12 @@ Ensure the following are available on the server:
 - Standard Linux utilities like `awk`, `free`, `df`, and `ps`.
 
 ## Installation
-
 Clone the repository:
 ```bash
--git clone https://github.com/username/server-stats.git
--cd server-stats
+git clone https://github.com/username/server-stats.git
+cd server-stats
 
-**# Output Example**
+## Output Example
 When run, the script generates an output like the following:
 
 Server Performance Report - Fri Nov 12 12:34:56 UTC 2024
