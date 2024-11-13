@@ -20,8 +20,8 @@ Ensure the following are available on the server:
 
 Clone the repository:
 ```bash
-git clone https://github.com/username/server-stats.git
-cd server-stats
+-git clone https://github.com/username/server-stats.git
+-cd server-stats
 
 **# Output Example**
 When run, the script generates an output like the following:
