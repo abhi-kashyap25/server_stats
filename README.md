@@ -1,4 +1,5 @@
-# <img src="https://img.shields.io/badge/Server-Stats Monitoring Script-blue" /> Server Stats Monitoring Script
+# <img src="https://img.shields.io/badge/Server-Stats Monitoring Script-blue" /> 
+Linux Server Stats Monitoring bash Script
 ====================================================================================
 
 **Monitor Essential Server Performance Metrics with Ease**
@@ -30,10 +31,11 @@ Ensure your server has:
    cd server-stats
 
 # Script Overview
-CPU Usage Calculation: Reads from /proc/stat twice, calculating total and idle times to determine CPU usage over a 1-second interval.
-Memory Usage Calculation: Utilizes free -m to fetch total, used, and free memory data, then calculates the usage percentage.
-Disk Usage Calculation: Uses df -h to retrieve disk space usage on the root filesystem.
-Process Monitoring: Utilizes ps to sort processes by CPU and memory consumption, listing the top 5 in each category.
+
+* **CPU Usage Calculation:** Reads from /proc/stat twice, calculating total and idle times to determine CPU usage over a 1-second interval.
+* **Memory Usage Calculation:** Utilizes free -m to fetch total, used, and free memory data, then calculates the usage percentage.
+* **Disk Usage Calculation:** Uses df -h to retrieve disk space usage on the root filesystem.
+* **Process Monitoring:** Utilizes ps to sort processes by CPU and memory consumption, listing the top 5 in each category.
 
 **Customization**
 Monitor Other Filesystems: Modify the df command section in the script:
