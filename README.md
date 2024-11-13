@@ -29,6 +29,8 @@ Ensure your server has:
    ```bash
    git clone https://github.com/abhi-kashyap25/server_stats.git
    cd server-stats
+   bash server_stats.sh .
+
 
 # Script Overview
 
