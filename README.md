@@ -26,7 +26,7 @@ Ensure your server has:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/server-stats.git
+   git clone https://github.com/abhi-kashyap25/server_stats.git
    cd server-stats
 
 # Script Overview
@@ -35,6 +35,7 @@ Memory Usage Calculation: Utilizes free -m to fetch total, used, and free memory
 Disk Usage Calculation: Uses df -h to retrieve disk space usage on the root filesystem.
 Process Monitoring: Utilizes ps to sort processes by CPU and memory consumption, listing the top 5 in each category.
 
-Customization
+**Customization**
 Monitor Other Filesystems: Modify the df command section in the script:
+```bash
 df -h /path/to/other/filesystem
